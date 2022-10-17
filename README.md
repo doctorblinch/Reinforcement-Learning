@@ -14,6 +14,6 @@ As the systems in Reinforcement Learning become high-dimensional, continuous and
 
 ## Policy-based
 
-[DQL report link](https://github.com/doctorblinch/Reinforcement-Learning/blob/main/PB/Policy-based.pdf)
+[PB report link](https://github.com/doctorblinch/Reinforcement-Learning/blob/main/PB/Policy-based.pdf)
 
 In Reinforcement Learning problems that have high-dimensional or continuous action spaces, the value based approach fails to replicate its performance in problems with smaller dimensions. Therefore, instead of learning the Q-value function and having a separate algorithm to pick the optimal next action, it is possible to learn instead the policy. This work considers the simple CartPole-v1 environment in Gym and implements the REINFORCE and actor-critic algorithms to perform gradient-based policy search to solve the environment. Additionally, an ablation study is performed to compare the REINFORCE algorithm to the more sophisticated actor-critic approach, and to investigate the performance impact of bootstrapping and baseline-subtraction in the latter.
