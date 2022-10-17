@@ -1,0 +1,26 @@
+{
+  "experiments_name": "best_hpo_ipa_piwo",
+  "experiments_count": 10,
+  "experiment_repetition_value": 5,
+  "result_folder_name": "experiments",
+  "parameters": {
+    "gamma": {
+      "min": 0.99,
+      "max": 1.0,
+      "distribution": "uniformal",
+      "n": 5
+    },
+    "sigma": {
+      "min": 0.03,
+      "max": 0.15,
+      "distribution": "log",
+      "n": 5
+    },
+    "update_frequency": [10, 15, 20],
+    "depth": [50, 100, 150],
+    "budget": 10000,
+    "baseline_subtract": true,
+    "bootstrap": true,
+    "stopping_criteria": "last_n"
+  }
+}

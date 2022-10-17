@@ -1,0 +1,7 @@
+Reinforce:
+https://goodboychan.github.io/python/reinforcement_learning/pytorch/udacity/2021/05/12/REINFORCE-CartPole.html
+
+Actor-critic:
+https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/reinforcement_learning/actor_critic.ipynb
+https://github.com/nitish-kalan/CartPole-v1-Actor-Critic-Keras
+https://github.com/yc930401/Actor-Critic-pytorch/blob/master/Actor-Critic.py
